@@ -27,10 +27,8 @@ def verificar_rut(rut,ver):
     else:
         return False
 
-print("Ingresar parte entera del rut")
-rut_entero = int(input())
-print("Ingresar dígito verificador")
-dig_ver = input()
+rut_entero = int(input("Ingresar parte entera del rut: "))
+dig_ver = input("Ingresar dígito verificador: ")
 
 if verificar_rut(rut_entero,dig_ver):
     print("El rut es válido")
