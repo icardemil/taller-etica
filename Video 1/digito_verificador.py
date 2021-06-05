@@ -1,5 +1,5 @@
 # Definición de variables a utilizar
-rut, factor, total = 19997050, 2, 0
+rut, factor, total = 50997019, 2, 0
 
 # Cálculo de la parte entera del RUT
 while rut != 0:
