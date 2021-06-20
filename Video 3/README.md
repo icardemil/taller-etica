@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-Hay una enorme pila de calcetines que deben ser emparejados por color. Se entrega un vector de enteros donde cada número representa un color. Entonces, se solicita construir un programa que permita determinar la cantidad total de pares de calcetines.
+Hay una enorme pila de calcetines que deben ser emparejados por color. Se entrega un vector de enteros donde cada número representa un calcetin y su color. Entonces, se solicita construir un programa que permita determinar la cantidad total de pares de calcetines.
 
 ## Entradas
 
@@ -19,15 +19,18 @@ Hay una enorme pila de calcetines que deben ser emparejados por color. Se entreg
 
 ## Ejemplo
 
+Los calcetines: 🔴🔵🔴🔵🔴🟡🔵
 ```python
 #Entrada
 cantidad = 7
-vector_calcetines = [1,2,1,2,1,3,2]
+vector_calcetines = [1,2,1,2,1,3,2] 
+```
 
+Los pares: 🔴🔴, 🔵🔵
+```python
 #Salida
 total_pares ⟶ 2
 ```
-
 ## Fuente
 
 [HackerRank.com](https://www.hackerrank.com/)
