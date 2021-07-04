@@ -1,0 +1,3 @@
+# Problema n°x
+## Enunciado
+> <p style='text-align: justify;'> Un viejo coshino necesita un programa para calcular cual usuario de Onlypacks tiene más horas de contenido subido en la plataforma, para esto contrata tus servicios de desarrollador. El programa necesita un registro por cada usuario que contemple la cantidad de horas y cantidad de minutos de contenido. Se desea conocer en promedio cuánto tiempo de material tiene cada usuario, cuántos usuarios tienen menos de 2 horas de contenido, cuántos tienen más o igual a 2 horas de contenido, el número de usuarios que más contenido tiene y cuánto tiempo de contenido tienen, cuál fue el número de usuarios que menos horas de contenido tienen y a cuanto tiempo corresponde.</p>

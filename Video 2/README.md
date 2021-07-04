@@ -1,3 +1,36 @@
-# Problema n°2
+# Pares de calcetines 🧦
+
 ## Enunciado
-> <p style='text-align: justify;'> Un viejo coshino necesita un programa para calcular cual usuario de Onlypacks tiene más horas de contenido subido en la plataforma, para esto contrata tus servicios de desarrollador. El programa necesita un registro por cada usuario que contemple la cantidad de horas y cantidad de minutos de contenido. Se desea conocer en promedio cuánto tiempo de material tiene cada usuario, cuántos usuarios tienen menos de 2 horas de contenido, cuántos tienen más o igual a 2 horas de contenido, el número de usuarios que más contenido tiene y cuánto tiempo de contenido tienen, cuál fue el número de usuarios que menos horas de contenido tienen y a cuanto tiempo corresponde.</p>
+
+Hay una enorme pila de calcetines que deben ser emparejados por color. Se entrega un vector de enteros donde cada número representa un calcetin y su color. Entonces, se solicita construir un programa que permita determinar la cantidad total de pares de calcetines.
+
+## Entradas
+
+| Nombre            | Descripción                                       |
+| ----------------- | ------------------------------------------------- |
+| cantidad          | la cantidad de calcetines que hay en el vector    |
+| vector_calcetines | el vector que representa cada calcetín y su color |
+
+## Retorna
+
+| Nombre      | Descripción                     |
+| ----------- | ------------------------------- |
+| total_pares | el total de pares de calcetines |
+
+## Ejemplo
+
+Los calcetines: 🔴🔵🔴🔵🔴🟡🔵
+```python
+#Entrada
+cantidad = 7
+vector_calcetines = [1,2,1,2,1,3,2] 
+```
+
+Los pares: 🔴🔴, 🔵🔵
+```python
+#Salida
+total_pares ⟶ 2
+```
+## Fuente
+
+[HackerRank.com](https://www.hackerrank.com/)
